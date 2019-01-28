@@ -1,0 +1,95 @@
+body {
+    background-color: lightgrey;
+    color: cadetblue;
+}
+
+body#idClassPage {
+    background-color: white;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Georgia, Times, serif;
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+ol {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+/*This is a comment in CSS */
+
+#main-title {
+    color: aquamarine;
+    background: #353535;
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+
+
+.section-header {
+    color: cadetblue;
+    border: solid blue 3px;
+    padding: 40px 20px 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+/* Styles for the Descendant Selectors*/
+
+.primary-box {
+    background-color: aliceblue;
+    border: solid 10px #333;
+    padding: 15px;
+}
+
+.secondary-box {
+    background-color: crimson;
+    color: lightskyblue;
+    padding: 15px;
+    border: 
+}
+
+.secondary-box p {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+#mainContainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Styles for the Grouping Selectors*/
+
+.primary-box, .secondary-box {
+    margin: 30px 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    border-bottom: solid 5px blue;
+    padding: 0 0 10px;
+}
+
+
+
+
+
+
+
+
